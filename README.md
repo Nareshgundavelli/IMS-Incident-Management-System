@@ -1,100 +1,127 @@
-# Mission-Critical Incident Management System (IMS)
+🚀 Mission-Critical Incident Management System (IMS)
 
-This repository implements the uploaded SRE assignment as an end-to-end full-stack application. The source prompt requires high-throughput signal ingestion, debouncing, raw signal storage, transactional incident workflow, mandatory RCA, MTTR calculation, observability, rate limiting, Docker Compose, sample data, and documentation.
+A full-stack Incident Management System designed for SRE workflows.
+It handles high-volume failure signals, processes them asynchronously, and converts them into structured incidents with lifecycle enforcement, RCA tracking, and observability.
 
-> Note: the chat request mentioned ecommerce, but the attached assignment and Notion page are for an Incident Management System. This repository follows the assignment requirements and includes a dashboard UI rather than a shopping cart.
+🧠 Overview
 
-## Architecture
+This system ingests failure signals from distributed systems, debounces duplicate events, stores raw data for auditing, and maintains structured incident workflows.
 
-```mermaid
-flowchart LR
-  UI[React Dashboard] --> API[Express API]
-  API --> Rate[Rate Limiter]
-  Rate --> Q[Bounded In-Memory Queue]
-  Q --> Debounce[10s Component Debouncer]
-  Debounce --> PG[(Postgres Source of Truth)]
-  Debounce --> MG[(Mongo Raw Signal Data Lake)]
-  Debounce --> RD[(Redis Hot Dashboard Cache)]
-  Debounce --> Agg[(Postgres Timeseries Aggregates)]
-  API --> Metrics[/health and /metrics]
-  Prom[Prometheus] --> Metrics
-```
+It ensures:
 
-## Backpressure handling
+Reliable incident tracking
+Mandatory Root Cause Analysis (RCA)
+MTTR (Mean Time To Resolution) calculation
+Real-time observability with Prometheus
+🏗️ Architecture
+React Dashboard → Express API → Queue → Debouncer
+                        ↓
+     PostgreSQL (Incidents & RCA)
+     MongoDB (Raw Signals)
+     Redis (Cache & Debounce)
+     Prometheus (Metrics)
+⚙️ Key Features
+✅ High-Throughput Signal Ingestion
+Handles large volumes of failure signals
+Uses a bounded in-memory queue for stability
+✅ Debouncing
+Multiple signals for same component → single incident
+Prevents alert flooding
+✅ Incident Lifecycle (State Machine)
+OPEN → INVESTIGATING → RESOLVED → CLOSED
+Enforced transitions
+Cannot close without RCA
+✅ RCA Enforcement
 
-Signals are accepted into a bounded in-memory queue controlled by `SIGNAL_QUEUE_MAX_SIZE`. If the queue is full, the ingestion endpoint returns `503` rather than crashing the server. A worker drains the queue in batches using `SIGNAL_BATCH_SIZE` and `SIGNAL_PROCESS_INTERVAL_MS`. Persistence operations use retry with exponential backoff via `DB_RETRY_ATTEMPTS` and `DB_RETRY_BASE_DELAY_MS`.
+Each incident must include:
 
-## Design patterns
-
-- Strategy pattern: `backend/src/patterns/alertStrategies.js` chooses alert routing by component type and severity.
-- State pattern: `backend/src/patterns/workItemState.js` enforces `OPEN -> INVESTIGATING -> RESOLVED -> CLOSED` and rejects closing without a complete RCA.
-
-## Data separation
-
-- MongoDB: raw signal audit log and payload data.
-- PostgreSQL: source-of-truth work items, RCA, state transitions, and minute buckets.
-- Redis: active dashboard state to avoid repeatedly querying PostgreSQL.
-
-## Setup
-
-```bash
+Incident start & end time
+Root cause category
+Fix applied
+Prevention steps
+✅ MTTR Calculation
+Automatically calculated using incident start & end time
+✅ Observability
+/metrics endpoint exposed
+Prometheus integration
+Tracks:
+Signals accepted
+Signals processed
+Throughput rate
+✅ Data Separation
+System	Purpose
+PostgreSQL	Incidents, RCA, workflow
+MongoDB	Raw signals (audit log)
+Redis	Cache, debounce, rate limiting
+🧩 Design Patterns
+Strategy Pattern → Alert routing based on severity/component
+State Pattern → Enforces incident lifecycle
+🚀 Setup Instructions
+1. Clone & Setup
 cp .env.example .env
 docker compose --env-file .env up --build
-```
+2. Access Services
+Service	URL
+Frontend	http://localhost:5173
 
-Open:
-- Frontend: http://localhost:5173
-- Backend health: http://localhost:8080/health
-- Metrics: http://localhost:8080/metrics
-- Prometheus: http://localhost:9090
+Backend	http://localhost:8080
 
-## Seed data
+Health	http://localhost:8080/health
 
-In another terminal:
+Metrics	http://localhost:8080/metrics
 
-```bash
-docker compose --env-file .env exec backend npm run seed
-```
+Prometheus	http://localhost:9090
+🌱 Seed Sample Data
+docker compose exec backend npm run seed
 
-The seed script loads `sample-data/failure-events.json`, including an RDBMS outage, MCP failure, and cache incident. The RDBMS sample includes over 100 signals for the same component to demonstrate debouncing.
+This will:
 
-## API examples
-
-```bash
+Insert sample failure signals
+Generate incidents
+Demonstrate debouncing
+📊 API Examples
+Send Signal
 curl -X POST http://localhost:8080/signals \
-  -H 'Content-Type: application/json' \
-  -d '{"componentId":"RDBMS_PRIMARY_01","componentType":"RDBMS","severity":"P0","message":"checkout db timeout","payload":{"latencyMs":2200}}'
-
+-H "Content-Type: application/json" \
+-d '{
+  "componentId":"RDBMS_PRIMARY_01",
+  "componentType":"RDBMS",
+  "severity":"P0",
+  "message":"database timeout"
+}'
+Get Incidents
 curl http://localhost:8080/incidents
-curl http://localhost:8080/incidents/<incident-id>
-```
+🔁 Incident Workflow (UI)
+Open Dashboard
+Select incident
+Change status:
+OPEN → INVESTIGATING
+INVESTIGATING → RESOLVED
+Add RCA
+Close incident
 
-## RCA and close flow
+🚨 Closing without RCA → Rejected
 
-1. Move incident to `INVESTIGATING`.
-2. Move incident to `RESOLVED`.
-3. Submit the RCA form.
-4. Move incident to `CLOSED`.
-
-Attempting to close without a complete RCA returns `400` with `Cannot close incident without complete RCA`.
-
-## Testing
-
-```bash
+🧪 Testing
 cd backend
 npm install
 npm test
-```
+⚠️ Troubleshooting
+Queue full (503 error)
+Increase SIGNAL_QUEUE_MAX_SIZE
+Metrics showing 0
+Run seed again
+Prometheus metrics reset on restart
+MongoDB empty
+Ensure worker processed queue
+Increase processing interval if needed
+Cannot close incident
+Ensure RCA fields are filled
+🛠️ Deployment Notes
 
-The included unit tests cover mandatory RCA validation and state transition checks.
+For production:
 
-## Troubleshooting
-
-- `503 Backpressure`: increase `SIGNAL_QUEUE_MAX_SIZE`, tune batch size, or inspect database latency.
-- `Health degraded`: run `docker compose ps`, inspect container logs, and verify `.env` connection values.
-- Frontend cannot reach API: check `VITE_API_BASE_URL` and `CORS_ORIGIN`.
-- Cannot close incident: ensure RCA has incident start/end, category, fix applied, and prevention steps.
-
-## Deployment notes
-
-For production, run backend and frontend as separate containers behind a load balancer, use managed PostgreSQL/MongoDB/Redis, configure TLS, add a real alert provider, and keep secrets in a vault instead of a checked-in `.env` file.
+Use managed PostgreSQL, MongoDB, Redis
+Add authentication & TLS
+Use load balancer
+Store secrets securely (Vault / env manager)
