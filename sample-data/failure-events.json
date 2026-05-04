@@ -1,0 +1,1857 @@
+[
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-0",
+      "latencyMs": 2200
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-1",
+      "latencyMs": 2201
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-2",
+      "latencyMs": 2202
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-3",
+      "latencyMs": 2203
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-4",
+      "latencyMs": 2204
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-5",
+      "latencyMs": 2205
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-6",
+      "latencyMs": 2206
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-7",
+      "latencyMs": 2207
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-8",
+      "latencyMs": 2208
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-9",
+      "latencyMs": 2209
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-10",
+      "latencyMs": 2210
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-11",
+      "latencyMs": 2211
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-12",
+      "latencyMs": 2212
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-13",
+      "latencyMs": 2213
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-14",
+      "latencyMs": 2214
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-15",
+      "latencyMs": 2215
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-16",
+      "latencyMs": 2216
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-17",
+      "latencyMs": 2217
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-18",
+      "latencyMs": 2218
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-19",
+      "latencyMs": 2219
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-20",
+      "latencyMs": 2220
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-21",
+      "latencyMs": 2221
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-22",
+      "latencyMs": 2222
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-23",
+      "latencyMs": 2223
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-24",
+      "latencyMs": 2224
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-25",
+      "latencyMs": 2225
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-26",
+      "latencyMs": 2226
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-27",
+      "latencyMs": 2227
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-28",
+      "latencyMs": 2228
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-29",
+      "latencyMs": 2229
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-30",
+      "latencyMs": 2230
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-31",
+      "latencyMs": 2231
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-32",
+      "latencyMs": 2232
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-33",
+      "latencyMs": 2233
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-34",
+      "latencyMs": 2234
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-35",
+      "latencyMs": 2235
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-36",
+      "latencyMs": 2236
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-37",
+      "latencyMs": 2237
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-38",
+      "latencyMs": 2238
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-39",
+      "latencyMs": 2239
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-40",
+      "latencyMs": 2240
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-41",
+      "latencyMs": 2241
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-42",
+      "latencyMs": 2242
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-43",
+      "latencyMs": 2243
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-44",
+      "latencyMs": 2244
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-45",
+      "latencyMs": 2245
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-46",
+      "latencyMs": 2246
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-47",
+      "latencyMs": 2247
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-48",
+      "latencyMs": 2248
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-49",
+      "latencyMs": 2249
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-50",
+      "latencyMs": 2250
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-51",
+      "latencyMs": 2251
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-52",
+      "latencyMs": 2252
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-53",
+      "latencyMs": 2253
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-54",
+      "latencyMs": 2254
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-55",
+      "latencyMs": 2255
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-56",
+      "latencyMs": 2256
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-57",
+      "latencyMs": 2257
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-58",
+      "latencyMs": 2258
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-59",
+      "latencyMs": 2259
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-60",
+      "latencyMs": 2260
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-61",
+      "latencyMs": 2261
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-62",
+      "latencyMs": 2262
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-63",
+      "latencyMs": 2263
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-64",
+      "latencyMs": 2264
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-65",
+      "latencyMs": 2265
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-66",
+      "latencyMs": 2266
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-67",
+      "latencyMs": 2267
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-68",
+      "latencyMs": 2268
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-69",
+      "latencyMs": 2269
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-70",
+      "latencyMs": 2270
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-71",
+      "latencyMs": 2271
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-72",
+      "latencyMs": 2272
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-73",
+      "latencyMs": 2273
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-74",
+      "latencyMs": 2274
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-75",
+      "latencyMs": 2275
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-76",
+      "latencyMs": 2276
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-77",
+      "latencyMs": 2277
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-78",
+      "latencyMs": 2278
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-79",
+      "latencyMs": 2279
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-80",
+      "latencyMs": 2280
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-81",
+      "latencyMs": 2281
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-82",
+      "latencyMs": 2282
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-83",
+      "latencyMs": 2283
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-84",
+      "latencyMs": 2284
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-85",
+      "latencyMs": 2285
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-86",
+      "latencyMs": 2286
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-87",
+      "latencyMs": 2287
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-88",
+      "latencyMs": 2288
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-89",
+      "latencyMs": 2289
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-90",
+      "latencyMs": 2290
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-91",
+      "latencyMs": 2291
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-92",
+      "latencyMs": 2292
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-93",
+      "latencyMs": 2293
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-94",
+      "latencyMs": 2294
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-95",
+      "latencyMs": 2295
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-96",
+      "latencyMs": 2296
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-97",
+      "latencyMs": 2297
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-98",
+      "latencyMs": 2298
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-99",
+      "latencyMs": 2299
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-100",
+      "latencyMs": 2300
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-101",
+      "latencyMs": 2301
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-102",
+      "latencyMs": 2302
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-103",
+      "latencyMs": 2303
+    }
+  },
+  {
+    "componentId": "RDBMS_PRIMARY_01",
+    "componentType": "RDBMS",
+    "severity": "P0",
+    "message": "connection pool exhausted during checkout",
+    "payload": {
+      "service": "checkout",
+      "traceId": "trace-db-104",
+      "latencyMs": 2304
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-0"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-1"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-2"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-3"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-4"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-5"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-6"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-7"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-8"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-9"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-10"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-11"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-12"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-13"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-14"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-15"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-16"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-17"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-18"
+    }
+  },
+  {
+    "componentId": "MCP_HOST_07",
+    "componentType": "MCP_HOST",
+    "severity": "P1",
+    "message": "tool host error rate spike",
+    "payload": {
+      "service": "mcp-router",
+      "traceId": "trace-mcp-19"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-0"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-1"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-2"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-3"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-4"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-5"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-6"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-7"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-8"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-9"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-10"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-11"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-12"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-13"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-14"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-15"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-16"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-17"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-18"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-19"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-20"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-21"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-22"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-23"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-24"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-25"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-26"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-27"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-28"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-29"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-30"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-31"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-32"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-33"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-34"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-35"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-36"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-37"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-38"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-39"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-40"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-41"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-42"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-43"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-44"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-45"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-46"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-47"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-48"
+    }
+  },
+  {
+    "componentId": "CACHE_CLUSTER_01",
+    "componentType": "CACHE",
+    "severity": "P2",
+    "message": "redis timeout",
+    "payload": {
+      "service": "catalog",
+      "traceId": "trace-cache-49"
+    }
+  }
+]
