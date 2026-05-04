@@ -308,6 +308,3 @@ The RCA form requires all fields: incident start time, incident end time, failur
 
 ---
 
-## License
-
-MIT
